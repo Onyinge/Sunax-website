@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNAX COMPANY (K) LTD | Professional Construction Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <div class="logo-img" style="background: linear-gradient(135deg, var(--secondary-blue), var(--primary-red)); width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 1.5rem;">
+                    SC
+                </div>
+                <div class="logo-text">
+                    <div class="logo-main">SUNAX COMPANY</div>
+                    <div class="logo-sub">CONSTRUCTION SPECIALISTS</div>
+                </div>
+            </div>
+            
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with 5 Carousels -->
+    <section id="home" class="hero">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <!-- Slide 1: Company Introduction -->
+                <div class="carousel-slide" style="background-image: url('assets/sunax2.jpg');">
+                    <div class="container">
+                        <div class="carousel-content animate-fade-in-up">
+                            <h1>Building Kenya's Future Since 2021</h1>
+                            <p>SUNAX COMPANY (K) LTD is a premier construction firm based in Migori, Kenya, delivering exceptional construction services with a commitment to quality, safety, and timely completion. We specialize in building works, road construction, and supply of construction materials.</p>
+                            <a href="#contact" class="btn">Get a Free Quote</a>
+                            <a href="projects.html" class="btn btn-secondary">View Our Projects</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2: NCA Certified -->
+                <div class="carousel-slide" style="background-image: url('assets/sunax3.jpg');">
+                    <div class="container">
+                        <div class="carousel-content animate-fade-in-up">
+                            <h1>NCA Certified Construction Experts</h1>
+                            <p>Registered with the National Construction Authority under Category NCA 8 for both building and road works. Our certification ensures compliance with national regulations and commitment to industry best practices in all our construction projects.</p>
+                            <a href="services.html" class="btn">Our Services</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Slide 3: Educational Infrastructure -->
+                <div class="carousel-slide" style="background-image: url('assets/sunax4.jpg');">
+                    <div class="container">
+                        <div class="carousel-content animate-fade-in-up">
+                            <h1>Educational Infrastructure Specialists</h1>
+                            <p>With extensive experience in constructing classrooms, dining halls, and laboratories for schools across Migori County, we are experts in educational infrastructure development that meets modern standards.</p>
+                            <a href="projects.html" class="btn">View School Projects</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 4: Quality Assurance -->
+                <div class="carousel-slide" style="background-image: url('assets/sunax5.jpg');">
+                    <div class="container">
+                        <div class="carousel-content animate-fade-in-up">
+                            <h1>Quality Construction Guaranteed</h1>
+                            <p>Our success is built on client satisfaction through proper project assessment, timely delivery, and hiring of qualified personnel. We use quality materials and adhere to strict construction standards.</p>
+                            <a href="services.html" class="btn">Our Quality Standards</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 5: Road Construction -->
+                <div class="carousel-slide" style="background-image: url('assets/sunax6.jpg');">
+                    <div class="container">
+                        <div class="carousel-content animate-fade-in-up">
+                            <h1>Road Construction & Infrastructure</h1>
+                            <p>Expertise in road construction, rehabilitation, and maintenance projects. We build durable roads that connect communities and support economic development across the region.</p>
+                            <a href="#contact" class="btn">Discuss Your Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carousel Navigation -->
+            <div class="carousel-arrow prev" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="carousel-arrow next" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            
+            <div class="carousel-nav" id="carouselNav">
+                <div class="carousel-dot active" data-slide="0"></div>
+                <div class="carousel-dot" data-slide="1"></div>
+                <div class="carousel-dot" data-slide="2"></div>
+                <div class="carousel-dot" data-slide="3"></div>
+                <div class="carousel-dot" data-slide="4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Highlights -->
+    <section class="highlights">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose SUNAX?</h2>
+                <p>We stand out in the construction industry with our commitment to excellence, compliance, and client satisfaction</p>
+            </div>
+            
+            <div class="highlight-grid">
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>NCA 8 Certified</h3>
+                    <p>Fully registered with National Construction Authority under Category NCA 8 for both building and road works. Our certification number 722240/00/0722 validates our compliance with national construction standards.</p>
+                </div>
+                
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Women-Owned Business</h3>
+                    <p>AGPO certified women-owned enterprise promoting diversity in construction. Directors Nancy A. Otuongi and Lavender A. Okoth each own 50% shares, driving women empowerment in Kenya's construction sector.</p>
+                </div>
+                
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Qualified Team</h3>
+                    <p>Our team includes Civil Engineers, Quantity Surveyors, Construction Engineers, and skilled tradespeople. Project Manager has 10+ years experience, Quantity Surveyor 8+ years, and skilled tradespeople with 5-15 years experience.</p>
+                </div>
+                
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Educational Projects</h3>
+                    <p>Specialized in constructing classrooms, dining halls, and laboratories for schools. Completed projects include Bande Girls Secondary, Moi Suba Girls, St. Michael Nyarongi, and ongoing CBC classroom projects.</p>
+                </div>
+                
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-file-certificate"></i>
+                    </div>
+                    <h3>Full Compliance</h3>
+                    <p>Registered with KRA (PIN: P052064609U), Business Registration Service (PVT-DLULXJ68), and holding all necessary licenses. Tax compliant with valid certificates up to 2023.</p>
+                </div>
+                
+                <div class="highlight-card animate-fade-in-up">
+                    <div class="highlight-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client Satisfaction</h3>
+                    <p>Our success is built on satisfied clients through timely delivery, quality workmanship, and transparent communication. We maintain proper project period assessment and timely work programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <div class="container">
+            <div class="social-container">
+                <h2 class="social-title">Connect With Us</h2>
+                <p class="social-description">Follow us on social media for updates on our projects, services, and construction insights. Reach out directly through WhatsApp for immediate assistance.</p>
+                
+                <div class="social-icons">
+                    <a href="https://wa.me/254722738291" target="_blank" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    
+                    <a href="#" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+                    <a href="#" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    
+                    <a href="mailto:ltdsunax@gmail.com" class="social-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    
+                    <a href="tel:+254722738291" class="social-icon phone">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="social-note">
+                    <p><strong>Direct WhatsApp Contact:</strong> Click the WhatsApp icon above to message Jack Okoth directly for immediate assistance with your construction needs, quotations, or project inquiries. We typically respond within minutes during business hours.</p>
+                    <p style="margin-top: 15px;"><strong>Business Inquiries:</strong> For formal proposals, tender documents, or partnership inquiries, please use our email address or visit our office during business hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">SUNAX<span>CONSTRUCTION</span></div>
+                    <p>SUNAX COMPANY (K) LTD is a registered construction firm specializing in building works, road construction, and supply of construction materials. We are committed to quality, timely delivery, and client satisfaction. Registered with all relevant government authorities and compliant with Kenyan construction regulations.</p>
+                    
+                    <div class="certificates">
+                        <span class="cert-badge">NCA 8 Certified</span>
+                        <span class="cert-badge">AGPO Registered</span>
+                        <span class="cert-badge">KRA Compliant</span>
+                        <span class="cert-badge">Company Reg. PVT-DLULXJ68</span>
+                        <span class="cert-badge">Tax PIN: P052064609U</span>
+                        <span class="cert-badge">Women-Owned Business</span>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Our Projects</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Company</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Tenders & Bids</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Career Opportunities</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Health & Safety Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> KSIII-SIRARI ROAD, MIGORI</p>
+                    <p><i class="fas fa-phone-alt"></i> +254 722 738 291</p>
+                    <p><i class="fas fa-envelope"></i> ltdsunax@gmail.com</p>
+                    <p><i class="fas fa-user-tie"></i> Contact: JACK OKOTH</p>
+                    <p><i class="fas fa-building"></i> P.O. BOX 379-40400 MIGORI</p>
+                    <p><i class="fas fa-certificate"></i> Reg No: PVT-DLULXJ68</p>
+                    <p><i class="fas fa-calendar-alt"></i> Registered: 28th Oct 2021</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 SUNAX COMPANY (K) LTD. All Rights Reserved. | Company Registration No. PVT-DLULXJ68 | KRA PIN: P052064609U</p>
+                <p style="margin-top: 15px;">Website designed for SUNAX COMPANY (K) LTD - Migori, Kenya | <span style="color: var(--primary-red);">"SUNAX FOR CLIENTALE SATISFACTION"</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

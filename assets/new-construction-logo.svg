@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Jacknan Construction logo</title>
+  <desc>A stylized hard-hat and building silhouette in warm primary color.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7fb3ff"/>
+      <stop offset="100%" stop-color="#0d6efd"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="white"/>
+
+  <!-- Building blocks -->
+  <g transform="translate(40,54) scale(1.1)">
+    <rect x="0" y="36" width="26" height="64" rx="2" fill="#2c3e50"/>
+    <rect x="34" y="10" width="26" height="90" rx="2" fill="#2c3e50"/>
+    <rect x="68" y="28" width="26" height="72" rx="2" fill="#2c3e50"/>
+  </g>
+
+  <!-- Hard hat shape -->
+  <path d="M40 120 C55 95, 145 95, 160 120 L160 126 L40 126 Z" fill="url(#g)" stroke="#0956c5" stroke-width="2"/>
+  <path d="M60 110 C80 95, 120 95, 140 110" fill="none" stroke="#0956c5" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Initials subtle -->
+  <text x="100" y="170" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" font-size="20" fill="#0b2545" font-weight="700">J</text>
+</svg>
